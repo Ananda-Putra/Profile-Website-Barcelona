@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+header {
+  background-color: #00205B;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #FFD700;
+}
+main.players {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+main.players h2 {
+  color: #00205B;
+  margin-bottom: 30px;
+}
+
+.position-group {
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.position-group h2 {
+  color: #050505;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.player-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 180px;
+  text-align: center;
+}
+
+.player-card img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 10px auto 0;
+}
+
+.player-card h4 {
+  margin: 12px 0 6px;
+  color: #00205B;
+  font-size: 16px;
+}
+
+.player-card p {
+  margin: 0 0 12px;
+  color: #555;
+  font-size: 14px;
+}
+
+.player-card:hover {
+  transform: translateY(-6px);
+}
+
+footer {
+  background-color: #00205B;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+.goalkeeper-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px; 
+  max-width: 1000px; 
+  margin: 0 auto;
+}
+
+.goalkeeper-grid .player-card {
+  width: 180px;
+  height: 320px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.goalkeeper-grid .player-card img {
+  width: 100%;
+  height: 200px;        
+  object-fit: contain;  
+  background-color: #fff;
+}
+

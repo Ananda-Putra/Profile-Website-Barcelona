@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+header {
+  background-color: #00205B;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #FFD700;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,60,0.7), rgba(128,0,64,0.7)),
+              url('assets/lineup.jpeg') center/cover no-repeat;
+  text-align: center;
+  color: white;
+  height: 75vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 0px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #FFD700;
+  color: #00205B;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #FFC107;
+}
+
+.latest-match {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.latest-match h2 {
+  color: #00205B;
+  margin-bottom: 15px;
+}
+
+.match-card {
+  background: white;
+  border: 2px solid #00205B;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto 30px;
+  width: 60%;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.match-card p {
+  margin: 0;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #00205B;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}

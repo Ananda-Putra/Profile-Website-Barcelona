@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+header {
+  background-color: #001f60;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffcc00;
+}
+
+.about-hero {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 60, 0.7), rgba(128, 0, 64, 0.7)),
+              url('assets/campnou.jpg') center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+}
+
+.about-hero .logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.overview {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.overview h2 {
+  color: #001f60;
+  margin-bottom: 15px;
+}
+
+.achievements {
+  background-color: #f3f3f3;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.achievements h2 {
+  color: #001f60;
+  margin-bottom: 30px;
+}
+
+.trophy-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.trophy {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.trophy:hover {
+  transform: translateY(-5px);
+}
+
+.club-info {
+  text-align: center;
+  max-width: 600px;
+  margin: 60px auto;
+  font-family: 'poppins', sans-serif;
+}
+
+.club-info h2 {
+  color: #001f60;
+  margin-bottom: 20px;
+}
+
+.club-info table {
+margin: 0px auto;
+border-collapse: collapse;
+text-align: left;
+width: 80%;
+table-layout: fixed;
+}
+
+.club-info th,
+.club-info td {
+  align-items: center;
+padding: 10px 15px;
+font-size: 16px;
+vertical-align: top;
+}
+
+.club-info th {
+  text-align: right;
+  font-weight: 600;
+  color: #00296b;
+  white-space: nowrap;
+  width: 35%
+}
+
+.club-info td {
+  text-align: left;
+  color: #333;
+  width: 65%;
+}
+.motto {
+  background-color: #001f60;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.3em;
+  font-style: italic;
+}
+footer {
+  background-color: #001f60;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
